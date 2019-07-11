@@ -32,51 +32,37 @@ Text Domain:  accelerate-theme-child
 }
 
 /* HOMEPAGE FEATURED CASE STUDIES STYLES */
-.site-content {
-  text-align: center;
-  display:inline-block;
-  clear: both;
-  width: 100%;
-  margin: 0;
-
-}
-
-.site-content h4 {
+.featured-work h4 {
   text-align: center;
 }
 
-.homepage-featured-work {
+.homepage-featured-work ul {
   text-align: center;
   clear: both;
-  width: 100%;
-}
-
-.homepage-featured-work h4 {
-  font: 700 20px 'Montserrat';
-  text-transform: uppercase;
-  margin: 2em 0 2em;
-  text-align: center;
-}
-
-.homepage-featured-work ul li {
+  list-style: none;
   display: inline;
-  float: right;
+}
+
+.individual-featured-work ul li {
+  float: left;
+  padding-right: .8em;
+  margin-bottom: 3em;
   width: 100%;
 }
 
 .individual-featured-work ul li figure {
-  display: inline-block;
-  float: left;
-  clear: right;
-  list-style: none;
+  margin-bottom: 20px;
 }
 
-.individual-featured-work ul li h3 a {
+.individual-featured-work h3  {
   font-family: 'Open Sans', Arial, sans-serif;
   font-weight: 400;
 	font-size: .9em;
   text-decoration: none;
 }
+
+
+
 
 .blog-post {
 	width: 50%;
@@ -112,7 +98,6 @@ Text Domain:  accelerate-theme-child
 }
 
 /* CASE STUDIES STYLES */
-
 article.case-study {
   margin: -25px 0 0;
 }
