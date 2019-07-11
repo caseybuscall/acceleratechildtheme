@@ -36,22 +36,18 @@ Text Domain:  accelerate-theme-child
   text-align: center;
 }
 
-.homepage-featured-work ul {
+.homepage-featured-work {
   text-align: center;
   clear: both;
   list-style: none;
   display: inline;
 }
 
-.individual-featured-work ul li {
+.individual-featured-work {
   float: left;
   padding-right: .8em;
   margin-bottom: 3em;
   width: 100%;
-}
-
-.individual-featured-work ul li figure {
-  margin-bottom: 20px;
 }
 
 .individual-featured-work h3  {
