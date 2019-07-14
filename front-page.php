@@ -25,8 +25,8 @@
 
 <section class="featured-work">
   <div class="site-content">
-    <h4>FEATURED WORK</h4>
     <ul class="homepage-featured-work">
+      <h4>FEATURED WORK</h4>
     <?php query_posts('posts_per_page=3&post_type=case_studies'); ?>
       <!-- the loop -->
       <?php while ( have_posts() ) : the_post();
