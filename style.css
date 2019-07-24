@@ -37,7 +37,6 @@ Text Domain:  accelerate-theme-child
   float: left;
   clear: both;
   list-style: none;
-  width: 100%;
 }
 
 .individual-featured-work {
@@ -45,7 +44,6 @@ Text Domain:  accelerate-theme-child
   float: left;
   clear: right;
   list-style: none;
-  width: 100%;
 }
 
 .individual-featured-work figure {
@@ -65,8 +63,6 @@ Text Domain:  accelerate-theme-child
 .individual-featured-work h4 {
   text-align: center;
 }
-
-
 
 
 
@@ -95,6 +91,12 @@ Text Domain:  accelerate-theme-child
 }
 
 /* Media Queries */
+@media (min-width: 768px) {
+  .individual-featured-work {
+    width: 33%;
+  }
+}
+
 @media (min-width: 768px) {
     .blog-post {
     	width: 50%;
