@@ -18,7 +18,7 @@
  		<div class="main-content" role="main">
  			<?php while ( have_posts() ) : the_post(); ?>
  				<?php the_content(); ?>
- 					<a class="button" href="<?php echo site_url('/blog/') ?>">View Our Work</a>
+ 					<a class="button" href="<?php echo site_url('/case-studies/') ?>">View Our Work</a>
  			<?php endwhile; // end of the loop. ?>
  		</div><!-- .main-content -->
  	</div><!-- #primary -->
@@ -61,5 +61,15 @@
  			</div>
  		</div>
  	</section>
+
+ 	<!-- SIDEBAR -->
+  <section class="twitter-feed">
+     <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+        <div id="secondary" class="widget-area" role="complementary">
+     	    <?php dynamic_sidebar( 'sidebar-2' ); ?>
+        </div>
+     <?php endif; ?>
+  </section>
+ 	</div>
 
  <?php get_footer(); ?>
