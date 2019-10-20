@@ -40,7 +40,7 @@ Text Domain:  accelerate-theme-child
 }
 
 .individual-featured-work {
-  display: inline-block;
+  display: inline;
   float: left;
   clear: right;
   list-style: none;
@@ -48,8 +48,8 @@ Text Domain:  accelerate-theme-child
 
 .individual-featured-work figure {
   margin-top: 1em;
-  padding-right: 5px;
-  width: 90%;
+  padding-right: 15px;
+  width: 100%;
 }
 
 .individual-featured-work h4 {
@@ -64,10 +64,64 @@ Text Domain:  accelerate-theme-child
   text-align: center;
 }
 
+/* HOMEPAGE TWITTER FEED */
+.twitter-feed {
+  width: 40%;
+	   float: right;
+  padding-left: -100%;
+}
 
+#secondary.widget-area {
+  padding-left: 20px;
+}
 
+.widget-title {
+  font: 700 1em/1.75 'Montserrat';
+  color: #a6a6a6;
+  text-transform: uppercase;
+  margin: 2em 0 2em;
+}
+
+/* CASE STUDIES PAGE STYLES */
+aside.case-study-sidebar {
+  float: left;
+  width: 315px;
+  margin: 0 20px 0 0;
+}
+
+aside.case-study-sidebar h2 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: bold;
+  line-height: .5em;
+}
+
+aside.case-study-sidebar h4 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+aside.case-study-sidebar h4 span {
+  color: #a6a6a6;
+}
+
+div.case-study-images img {
+  display: block;
+  margin-bottom: 50px;
+  border: 1px solid #dddddd;
+	width: 100%;
+	height: auto;
+}
+
+div.case-study-images {
+  float: left;
+  width: 615px;
+}
+
+/* BLOG POST STYLES */
 .blog-post {
-	width: 50%;
+	width: 40%;
 	float: left;
 	margin-bottom: 2em;
 }
@@ -122,4 +176,70 @@ div.case-study-images {
 div.case-study-images img {
   margin: 50px -20px -20px -20px;
   border: 1px solid #dddddd;
+}
+
+/* ABOUT PAGE */
+.services-header {
+	display: flex;
+	flex-direction: column;
+	width: 700px;
+	margin: 0 auto;
+	padding-bottom: 3em;
+}
+
+.services-header h1 {
+	font: 700 1em/1 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	margin: 3em auto 2em;
+}
+
+.services-header p {
+	line-height: 1.75;
+	margin: 0 auto;
+}
+
+.service-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 2em auto;
+}
+
+.service-text {
+	float: left;
+	width: 65%;
+}
+
+.services-contact {
+  float: left;
+}
+
+/* 404 PAGE */
+.container404 {
+  font-size: 1em;
+  text-align: center;
+  margin-top: -9em;
+}
+
+.container404 h1 {
+  font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
+  color: #45ac9d;
+  font-size: 5.5em;
+  text-transform: uppercase;
+  padding-left: 55%;
+}
+
+.container404 p {
+  padding-left: 55%;
+}
+
+.container404 img {
+  max-width: 80%;
+  float: left;
+  margin-top: 50px;
+}
+
+.container404 a {
+  color: #45ac9d;
+  font-weight: 700;
 }
