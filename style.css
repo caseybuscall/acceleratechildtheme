@@ -65,10 +65,11 @@ Text Domain:  accelerate-theme-child
 }
 
 /* HOMEPAGE TWITTER FEED */
-.twitter-feed {
-  width: 40%;
-	   float: right;
-  padding-left: -100%;
+.recent-posts {
+  margin-right: 2%;
+}
+.recent-tweets {
+  margin-left: 2%;
 }
 
 #secondary.widget-area {
