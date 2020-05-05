@@ -43,7 +43,7 @@ Accelerate is a strategy and marketing agency located in the heart of NYC. Our g
 
 						<div class="service-img">
 							<img src=<?php if($image_1) {
-								echo wp_get_attachment_image($image_1, $size); } ?>/>
+								echo wp_get_attachment_image($image_1,$size); } ?>/>
 						</div>
 						<div class="clearfix-about"></div>
 					</div>

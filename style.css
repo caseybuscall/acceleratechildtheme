@@ -65,9 +65,14 @@ Text Domain:  accelerate-theme-child
 }
 
 /* HOMEPAGE TWITTER FEED */
+.homepage{
+  flex-basis: 100px;
+}
+
 .recent-posts {
   margin-right: 2%;
 }
+
 .recent-tweets {
   margin-left: 2%;
 }
@@ -177,6 +182,30 @@ div.case-study-images {
 div.case-study-images img {
   margin: 50px -20px -20px -20px;
   border: 1px solid #dddddd;
+}
+
+/* CONTACT FORM*/
+.narrow-up {
+  width: 80%;
+}
+.form-custom-wrap{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+#nf-label-field-1, #nf-label-field-2, #nf-label-field-3 {
+  font-weight: 600;
+}
+.nf-form-content textarea.ninja-forms-field {
+  background-color: #fff;
+}
+#nf-field-1, #nf-field-2{
+  background-color: #fff;
+}
+#nf-field-4 {
+  width: 30%;
+  float: right;
+  background-color: #45ac9d;
 }
 
 /* ABOUT PAGE */

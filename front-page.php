@@ -50,6 +50,7 @@
   <section class="recent-posts">
  		<div class="site-content">
  			<div class="blog-post">
+        <div class="homepage">
  				<h4>FROM THE BLOG</h4>
  				<?php query_posts('posts_per_page=1'); ?>
  					<!-- the loop -->
@@ -71,5 +72,6 @@
      <?php endif; ?>
   </section>
  	</div>
+        </div>
 
  <?php get_footer(); ?>
