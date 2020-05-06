@@ -65,16 +65,19 @@ Text Domain:  accelerate-theme-child
 }
 
 /* HOMEPAGE TWITTER FEED */
-.homepage{
-  flex-basis: 100px;
+section.blog-twitter {
+  width: 30%
+  margin: 100px;
+  display: flex;
 }
 
 .recent-posts {
-  margin-right: 2%;
+  margin-left: 16%;
 }
 
-.recent-tweets {
-  margin-left: 2%;
+.twitter-feed {
+  margin-left: -25%;
+  margin-right: 15%
 }
 
 #secondary.widget-area {

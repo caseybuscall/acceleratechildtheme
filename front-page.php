@@ -46,32 +46,34 @@
   </div>
 </section>
 
- 	<!-- RECENT BLOG POST -->
+
+<section class="blog-twitter">
+  <!-- RECENT BLOG POST -->
   <section class="recent-posts">
- 		<div class="site-content">
- 			<div class="blog-post">
-        <div class="homepage">
- 				<h4>FROM THE BLOG</h4>
- 				<?php query_posts('posts_per_page=1'); ?>
- 					<!-- the loop -->
- 					<?php while ( have_posts() ) : the_post(); ?>
- 						<h3><?php the_title(); ?></h3>
- 						<?php the_excerpt(); ?>
- 					<?php endwhile; // end of the loop. ?>
- 				<?php wp_reset_query(); // resets the altered query back to the original ?>
- 			</div>
- 		</div>
+   		<div class="site-content">
+   			<div class="blog-post">
+   				<h4>FROM THE BLOG</h4>
+   				<?php query_posts('posts_per_page=1'); ?>
+   					<!-- the loop -->
+   					<?php while ( have_posts() ) : the_post(); ?>
+   						<h3><?php the_title(); ?></h3>
+   						<?php the_excerpt(); ?>
+   					<?php endwhile; // end of the loop. ?>
+   				<?php wp_reset_query(); // resets the altered query back to the original ?>
+   			</div>
+   		</div>
  	</section>
 
  	<!-- SIDEBAR -->
-  <section class="twitter-feed">
-     <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
-        <div id="secondary" class="widget-area" role="complementary">
-     	    <?php dynamic_sidebar( 'sidebar-2' ); ?>
-        </div>
-     <?php endif; ?>
-  </section>
- 	</div>
-        </div>
+    <section class="twitter-feed">
+       <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+          <div id="secondary" class="widget-area" role="complementary">
+       	    <?php dynamic_sidebar( 'sidebar-2' ); ?>
+          </div>
+       <?php endif; ?>
+    </section>
+   	</div>
+
+</div>
 
  <?php get_footer(); ?>
